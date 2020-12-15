@@ -13,7 +13,7 @@ updated = False
 async def updatePodium():
     await client.wait_until_ready()
     # general channel = 705519423146164246 , Bot_test channel = 780124613593006090
-    channel = client.get_channel(786623019341709352)
+    channel = client.get_channel(787797996137218049)
     msg1 = getdata.getHighestMmr(38)
     msg2 = getdata.getHighestMmr(42)
     msg3 = getdata.getHighestMmr(46)
