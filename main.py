@@ -47,14 +47,14 @@ async def checkDate():
     count = 0
     startat = 1
     #Weekday : 0 - Monday , ... 6 - Sunday
-    if weekday == 1 and not sent and hour == 9 and minute == 31:
+    if weekday == 6 and not sent and hour == 20 and minute == 0:
         dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
         await channel.send('Server time: '+ dt_string)
         await channel.send('Today is: ' + day)
         await channel.send('Updating the Champions!')
         await updatePodium()
         sent = True
-    elif weekday != 1:
+    elif weekday != 6:
         sent = False
     if hour % 6 == 0 and not updated:
         updated = True
