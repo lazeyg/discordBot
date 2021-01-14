@@ -293,4 +293,4 @@ async def help(ctx):
     await author.send(embed=embed)
     await channel.send(embed=embed)
 
-client.run('Nzc5NzEwMjAxOTI1OTkyNDgw.X7kftg.7A5qjUQYbqjtDxMtkOCJtkpB43U')
+client.run('Nzc5NzEwMjAxOTI1OTkyNDgw.X7kftg.bfQKFA4AyjUUeMUPSGnm3E1vAOk')
